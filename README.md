@@ -97,8 +97,8 @@ void process_file(const string& file_path) {
     int time_taken;
     tie(longest, second_longest, time_taken) = find_longest_compounded_words(file_path);
 
-    cout << "Longest Compound Word for " << file_path << ": " << longest << endl;
-    cout << "Second Longest Compound Word for " << file_path << ": " << second_longest << endl;
+    cout << "Longest Compound Word  " <<  ": " << longest << endl;
+    cout << "Second Longest Compound Word " <<": " << second_longest << endl;
     cout << "Time taken to process file " << file_path << ": " << time_taken << " milliseconds" << endl;
 }
 
